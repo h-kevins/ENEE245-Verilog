@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/kevhe/Documents/GitHub/ENEE245-Verilog/Lab4IntroToVerilog/lightBDF.bdf
+source_file = 1, C:/Users/kevhe/Documents/GitHub/ENEE245-Verilog/Lab4IntroToVerilog/light.v
+source_file = 1, C:/Users/kevhe/Documents/GitHub/ENEE245-Verilog/Lab4IntroToVerilog/Waveform.vwf
+source_file = 1, C:/Users/kevhe/Documents/GitHub/ENEE245-Verilog/Lab4IntroToVerilog/Waveform1.vwf
+source_file = 1, C:/Users/kevhe/Documents/GitHub/ENEE245-Verilog/Lab4IntroToVerilog/db/light.cbx.xml
+design_name = lightBDF
+instance = comp, \f~output , f~output, lightBDF, 1
+instance = comp, \x1~input , x1~input, lightBDF, 1
+instance = comp, \x2~input , x2~input, lightBDF, 1
+instance = comp, \inst2~0 , inst2~0, lightBDF, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

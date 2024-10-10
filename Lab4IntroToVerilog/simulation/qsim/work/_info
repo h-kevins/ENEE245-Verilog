@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kevhe/Documents/GitHub/ENEE245-Verilog/Lab4IntroToVerilog/simulation/qsim
+vhard_block
+Z1 !s110 1728580099
+!i10b 1
+!s100 jCRjddZ>XFK@YR`IbfSf?3
+I0h6l8FmQBzDM`0L[<;V6H1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1728580098
+Z4 8light.vo
+Z5 Flight.vo
+L0 121
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1728580099.000000
+Z8 !s107 light.vo|
+Z9 !s90 -work|work|light.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vlight
+Z12 !s110 1728579706
+!i10b 1
+!s100 `RYQIfmUm3^S0:UdM?aoa0
+I^a5KBf5Y;V0;[E;[`AK7V3
+R2
+R0
+w1728579705
+R4
+R5
+Z13 L0 31
+R6
+r1
+!s85 0
+31
+Z14 !s108 1728579706.000000
+R8
+R9
+!i113 1
+R10
+R11
+vlight_vlg_vec_tst
+R12
+!i10b 1
+!s100 R1W6d@21M3lU6]1aN9hZc1
+I=BI8PnS;VR4FmgDOf^[KB3
+R2
+R0
+w1728579704
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z15 L0 29
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vlightBDF
+R1
+!i10b 1
+!s100 Oo6C=f?>B1eYLzo365E`93
+IhzP<;1eR=n<ffaji>H6Q:1
+R2
+R0
+R3
+R4
+R5
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nlight@b@d@f
+vlightBDF_vlg_vec_tst
+R1
+!i10b 1
+!s100 @1BbA4O_hb2ES1CU`HD?42
+IK@G3m6UmX>on60Xm@8IC@0
+R2
+R0
+w1728580097
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R15
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+nlight@b@d@f_vlg_vec_tst
