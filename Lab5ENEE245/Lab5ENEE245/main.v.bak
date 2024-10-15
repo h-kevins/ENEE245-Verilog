@@ -1,0 +1,11 @@
+module main (SW, LEDG);
+	input [1:0] SW; //Declare two inputs: SW[1] and SW[0]
+	output [0:0] LEDG; //Declare one output: LEDG[0]
+	light (SW[0], SW[1], LEDG[0]); //Instantiate submodule light, connect by position
+endmodule
+
+module light (x1, x2, f);
+	input x1, x2;
+	output f;
+	assign f = (x1 & ~x2)|(~x1 & x2);
+endmodule
