@@ -13,7 +13,7 @@ module alu (A, B, Y, sel);
    3'b001 : 
        begin 
         Y = A & B;
-        End
+        end
    3'b010 : 
        begin 
         Y = A | B;
