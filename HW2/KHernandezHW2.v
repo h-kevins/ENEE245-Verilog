@@ -105,12 +105,7 @@ module tb_dataaflow;
 endmodule
 
 // Question 4
-module question4 (
-    output reg Y,
-    input X,
-    input clock,
-    input reset
-);
+module question4 (output reg Y, input X);
     reg [2:0] state, next_state;
     parameter S0 = 3'b000, S1 = 3'b001, S2 = 3'b010, S3 = 3'b011, S4 = 3'b100;
 	
@@ -121,7 +116,7 @@ module question4 (
             S2: next_state = (X) ? S0 : S2;
             S3: next_state = (X) ? S2 : S1;
             S4: next_state = (X) ? S3 : S2;
-            default: next_state = S0; // Default case for safety
+            default: next_state = S0;
         endcase
     end
 
@@ -132,7 +127,7 @@ module question4 (
             S2: Y = X;
             S3: Y = X;
             S4: Y = 0;
-            default: Y = 0; // Default case for safety
+            default: Y = 0; 
         endcase
     end
 endmodule
