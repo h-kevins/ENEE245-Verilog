@@ -1,0 +1,35 @@
+|main
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+LEDG[0] <= w1.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= display:disp.port1
+HEX0[1] <= display:disp.port1
+HEX0[2] <= display:disp.port1
+HEX0[3] <= display:disp.port1
+HEX0[4] <= display:disp.port1
+HEX0[5] <= display:disp.port1
+HEX0[6] <= display:disp.port1
+
+
+|main|light:comb_3
+x1 => f.IN0
+x1 => f.IN0
+x2 => f.IN1
+x2 => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|display:disp
+out => HEX0[5].DATAIN
+out => HEX0[4].DATAIN
+out => HEX0[3].DATAIN
+out => HEX0[0].DATAIN
+HEX0[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= <GND>
+HEX0[2] <= <GND>
+HEX0[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[6] <= <VCC>
+
+
